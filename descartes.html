@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manual de Marca</title>
+</head>
+<link rel="stylesheet" type= "text/css" href="descartes.css">
+
+<body>
+    <div class="masterdiv">
+        <div class = "tab" id="caixa">
+            <button class = "tablink" onclick = "abrir(event, 'inicio', 'subtab1')">Introdução</button>
+                <div class = "subtab" id="subtab1">
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'descartes', 'subtab1')">Descartes</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'conceito', 'subtab1')">Conceito</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'valores', 'subtab1')">Valores</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'objetivo', 'subtab1')">Objetivo</button>
+                </div>
+            <button class = "tablink" onclick = "abrir(event, 'meio', 'subtab2')">Marca</button>
+                <div class = "subtab" id="subtab2">
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'grid', 'subtab2')">Grid de Construção</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'respiro', 'subtab2')">Área de Respiro</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'maxima', 'subtab2')">Redução Máxima</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'variacoes', 'subtab2')">Variações da Logo</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'escalas', 'subtab2')">Escalas de Cinza</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'incorreto', 'subtab2')">Usos incorretos</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'aplicacoes', 'subtab2')">Aplicações da logo</button>
+                </div>
+            <button class = "tablink" onclick = "abrir(event, 'fim', 'subtab3')">Elementos</button>
+                <div class = "subtab" id="subtab3">
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'tipografia', 'subtab3')">Tipografia</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'paleta', 'subtab3')">Paletas de Cores</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'texturas', 'subtab3')">Texturas</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'elementos', 'subtab3')">Elementos Visuais</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'fotografia', 'subtab3')">Fotografia</button>
+                </div>
+            <button class = "tablink" onclick = "abrir(event, 'fim', 'subtab4')">Aplicações</button>
+            <div class = "subtab" id="subtab4">
+                <button class = "tablink" id="opttab" onclick = "abrir(event, 'papelaria', 'subtab4')">Papelaria</button>
+                <button class = "tablink" id="opttab" onclick = "abrir(event, 'canecas', 'subtab4')">Canecas</button>
+                <button class = "tablink" id="opttab" onclick = "abrir(event, 'vestuario', 'subtab4')">Vestuário</button>
+            </div>
+        </div>
+        <div class="container">
+            <div id="home" class="tabcontent" style="display:block">
+                <div class="logo"><img src="/src/descartes-logo.png"></div>
+            </div>
+
+
+            <div id="inicio" class="tabcontent">
+                <p>ola</p>
+            </div>
+        <div id="meio" class="tabcontent">
+                <p>alo</p>
+        </div>
+        <div id="fim" class="tabcontent">
+                <p>aol</p>
+            </div>
+        </div>
+
+        <div class="tabcontent" id="descartes"></div>
+        <div class="tabcontent" id="conceito"></div>
+        <div class="tabcontent" id="valores"></div>
+        <div class="tabcontent" id="objetivo"></div>
+
+        <div class="tabcontent" id="grid"></div>
+        <div class="tabcontent" id="respiro"></div>
+        <div class="tabcontent" id="maxima"></div>
+        <div class="tabcontent" id="variacoes"></div>
+        <div class="tabcontent" id="escalas"></div>
+        <div class="tabcontent" id="incorreto"></div>
+        <div class="tabcontent" id="aplicacoes"></div>
+
+        <div class="tabcontent" id="tipografia"></div>
+        <div class="tabcontent" id="paleta"></div>
+        <div class="tabcontent" id="texturas"></div>
+        <div class="tabcontent" id="elementos"></div>
+        <div class="tabcontent" id="fotografia"></div>
+
+        <div class="tabcontent" id="papelaria"></div>
+        <div class="tabcontent" id="canecas"></div>
+        <div class="tabcontent" id="vestuario"></div>
+
+    </div>
+    <script src="descartes.js"></script>
+</body>
+</html>
