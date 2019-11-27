@@ -13,9 +13,8 @@ function abrir(evt, secao, sub) {
     for (i = 0; i < subtab.length; i++) {
         subtab[i].style.display = "none";
     }
-    document.getElementById(secao).style.display = "none";
-    if(document.getElementById(sub).style.display == "block"){console.log("ae");document.getElementById(sub).style.display = "none";};
-    if(document.getElementById(sub).style.display == "none"){console.log("aeee");document.getElementById(sub).style.display = "block";};
+    document.getElementById(secao).style.display = "block";
+    document.getElementById(sub).style.display = "block";
 
     evt.currentTarget.className += " active";
 

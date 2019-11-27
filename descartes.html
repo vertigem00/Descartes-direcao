@@ -13,12 +13,11 @@
         <div class = "tab" id="caixa">
             <button class = "tablink" onclick = "abrir(event, 'inicio', 'subtab1')">Introdução</button>
                 <div class = "subtab" id="subtab1">
-                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'descartes', 'subtab1')">Descartes</button>
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'conceito', 'subtab1')">Conceito</button>
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'valores', 'subtab1')">Valores</button>
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'objetivo', 'subtab1')">Objetivo</button>
                 </div>
-            <button class = "tablink" onclick = "abrir(event, 'meio', 'subtab2')">Marca</button>
+            <button class = "tablink" onclick = "abrir(event, 'marca', 'subtab2')">Marca</button>
                 <div class = "subtab" id="subtab2">
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'grid', 'subtab2')">Grid de Construção</button>
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'respiro', 'subtab2')">Área de Respiro</button>
@@ -43,6 +42,7 @@
                 <button class = "tablink" id="opttab" onclick = "abrir(event, 'vestuario', 'subtab4')">Vestuário</button>
             </div>
         </div>
+
         <div class="container">
             <div id="home" class="tabcontent" style="display:block">
                 <div class="logo"><img src="/src/descartes-logo.png">
@@ -51,21 +51,35 @@
             </div>
 
 
-            <div id="inicio" class="tabcontent">
-                <p>ola</p>
+        <div id="inicio" class="tabcontent">
+            <div style="width: 40vw; height: 30vh;position: relative; left: 10vw; top: 5vh;">
+            <p>Descartes consiste em um Website que dispõe de geolocalização. A plataforma atua como intermediador entre empresas e indivíduos interessados em obter resíduos sólidos por meio de cadastro e manutenção do respectivo perfil no site.
+                <br><br>
+                Este manual de marca auxilia o uso da marca Descartes nas mais diversas maneiras, apresentando todos os elementos que compõe o seu sistema de identidade visual. Dessa maneira é necessário garantir o uso correto e a padronização da marca.</p>
             </div>
-        <div id="meio" class="tabcontent">
-                <p>alo</p>
         </div>
-        <div id="fim" class="tabcontent">
-                <p>aol</p>
-            </div>
+        
+
+        <div class="tabcontent" id="conceito">
+                <p style="font-size: 2.5vw; position: relative; top: 22vh; left: 4vw;">"Ligando pessoas, construindo possibilidades!"</p>
         </div>
 
-        <div class="tabcontent" id="descartes"></div>
-        <div class="tabcontent" id="conceito"></div>
-        <div class="tabcontent" id="valores"></div>
-        <div class="tabcontent" id="objetivo"></div>
+        <div class="tabcontent" id="valores">
+            <div style="width: 40vw; height: 30vh;position: relative; left: 10vw; top: 5vh;">
+                <p>Através de estudos na área e análise de cada usuário, a plataforma Descartes visa uma navegação rápida em um sistema objetivo. Esse sistema tem como propósito o incentivo à conscientização ambiental e contribuição com a comunidade, além de praticidade e objetividade na hora do acesso.</p>
+            </div>
+
+        <div class="tabcontent" id="objetivo">
+            <div style="width: 40vw; height: 30vh;position: relative; left: 10vw; top: 5vh;">
+                <p>Através de estudos na área e análise de cada usuário, a plataforma Descartes visa uma navegação rápida em um sistema objetivo. Esse sistema tem como propósito o incentivo à conscientização ambiental e contribuição com a comunidade, além de praticidade e objetividade na hora do acesso.</p>
+            </div>
+        </div>
+        
+        <div class="tabcontent" id="marca">
+            <div class="logo"><img src="/src/descartes-logo.png">
+                <br><br>
+            <p>Olá! Seja Bem vindo ao <b>Manual de Marca</b> da Descartes!</p></div>
+        </div>
 
         <div class="tabcontent" id="grid"></div>
         <div class="tabcontent" id="respiro"></div>
@@ -84,8 +98,8 @@
         <div class="tabcontent" id="papelaria"></div>
         <div class="tabcontent" id="canecas"></div>
         <div class="tabcontent" id="vestuario"></div>
-
     </div>
+
     <script src="descartes.js"></script>
 </body>
 </html>
