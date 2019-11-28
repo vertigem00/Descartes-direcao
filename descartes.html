@@ -25,7 +25,7 @@
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'variacoes', 'subtab2')">Variações da Logo</button>
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'escalas', 'subtab2')">Escalas de Cinza</button>
                     <button class = "tablink" id="opttab" onclick = "abrir(event, 'incorreto', 'subtab2')">Usos incorretos</button>
-                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'aplicacoes', 'subtab2')">Aplicações da logo</button>
+                    <button class = "tablink" id="opttab" onclick = "abrir(event, 'aplicalogo', 'subtab2')">Aplicações da logo</button>
                 </div>
             <button class = "tablink" onclick = "abrir(event, 'elementos', 'subtab3')">Elementos</button>
                 <div class = "subtab" id="subtab3">
@@ -47,7 +47,12 @@
             <div id="home" class="tabcontent" style="display:block">
                 <div class="logo"><img src="descartes-logo.png">
                     <br><br>
-                <p>Olá! Seja Bem vindo ao <b>Manual de Marca</b> da Descartes!</p></div>
+                <p>Olá! Seja Bem vindo ao <b>Manual de Marca</b> da Descartes!<br><br>Assista nosso video e entenda como a gente funciona você só precisa de um minutinho!</p>
+                <p></p>
+
+                <div style="position: relative; left: -1vw;"><iframe width="600" height="400" src="https://www.youtube.com/embed/jA3t1s2M8hA?autoplay" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
             </div>
 
 
@@ -59,7 +64,11 @@
             </div>
         </div>
         
-
+        <div class="tabcontent" id="aplicalogo">
+            <div><img src="aplica.png" style="position: relative; top: 0vh; left: 0vw;width: 35vw;">
+                <img src="aplica2.png" style="position: absolute; top: 23.5vh; left: 60vw;width: 25vw;">
+            </div>
+        </div>
         <div class="tabcontent" id="conceito">
                 <p style="font-size: 2.5vw; position: relative; top: 22vh; left: 4vw;">"Ligando pessoas, construindo possibilidades!"</p>
         </div>
@@ -77,37 +86,44 @@
         </div>
         
         <div class="tabcontent" id="marca">
-            <div class="logo"><img src="descartes-logo.png">
+            <div class="logomarca" ><img src="descartes-logo.png">
                 <br><br>
             <p style="font-size: 1.5vw; position: relative; top: 15vh; left: 0vw; text-align: justify; margin: 4vw;">O D da nossa logomarca trás 2 cores quentes, representando dinamismo, atividade constante e criatividade, junto com o verde turquesa referindo-se ao crescimento e sustentabilidade. As formas circulares de transição entre cores transmitem a ideia dos ciclos de reutilização dos resíduos sólidos, assim como o ícone dentro do pin de localização. O resto da tipografia apresenta leveza nas formas e seriedade com o violeta.</p></div>
         </div>
 
         <div class="tabcontent" id="grid">
-            <div class="logo"><img src="grid.png" style="left: 10vw;top: -10vh; width: 60vw; "><p style="width: 25vw; height: 25vh; left: 0vw;text-align: justify">O grid de construção garante a distribuição hamonica dos elementos constituintes da logo. O módulo X estabelece as proporções na malha construtiva.</p></div>
+            <div class="grid"><img src="grid.png"><p>O grid de construção garante a distribuição hamonica dos elementos constituintes da logo. O módulo X estabelece as proporções na malha construtiva.</p></div>
         </div>
 
         <div class="tabcontent" id="respiro">
-            <div class="logo"><img src="respiro.png" style="left: 15vw; width: 30vw; "><p style="width: 40vw; height: 30vh; left: 10vw; top: 9vw; text-align: justify;">A área de respiro atua como área delimitadora, definindo um espaço onde não deve haver interferência entre a marca ou quaisquer outros elementos visuais. A distância mínima deve respeitada e abaixo pode conferir a delimitação representada pela letra S da logo Descartes.   
+            <div class="logo"><img src="respiro.png" style="left: 15vw; width: 30vw; "><p style="font-size: 1.5vw;width: 40vw; height: 30vh; left: 10vw; top: 9vw; text-align: justify;">A área de respiro atua como área delimitadora, definindo um espaço onde não deve haver interferência entre a marca ou quaisquer outros elementos visuais. A distância mínima deve respeitada e abaixo pode conferir a delimitação representada pela letra S da logo Descartes.   
             </p></div>
         </div>
 
         <div class="tabcontent" id="maxima">
-            <div class="logo"><img src="minimo.png" style="left: 38vw; width: 10vw;top: 6vw; "><p style="width: 30vw; height: 30vh; left: 2vw; top: 1vw; text-align: justify;">Para mater a legibilidade e leiturabilidade da logo Descartes, se fez necessária uma medição mínima para a aplicação da logo nos mais variados materiais e plataformas.<br> A redução máxima em meios digitais é de 85 px.  </p>
+            <div class="logo"><img src="minimo.png" style="left: 38vw; width: 10vw;top: 6vw; "><p style="font-size: 1.5vw;width: 30vw; height: 30vh; left: 2vw; top: 1vw; text-align: justify;">Para mater a legibilidade e leiturabilidade da logo Descartes, se fez necessária uma medição mínima para a aplicação da logo nos mais variados materiais e plataformas.<br> A redução máxima em meios digitais é de 85 px.  </p>
         </div>
         </div>
 
         <div class="tabcontent" id="variacoes">
                 <div><img src="variacao.png" style="position:relative; top: 6vh; left: 7vw; width: 45vw;"></div>
         </div>
-        <div class="tabcontent" id="escalas"></div>
+        <div class="tabcontent" id="escalas">
+                <div><img src="cinza.png" style="position:relative; top: 3vh; left: 11vw;width: 40vw;"></div>
+        </div>
 
         <div class="tabcontent" id="incorreto">
                 <div><img src="naousar.png" style="position:relative; top: 3vh; left: 11vw;width: 35vw;"></div>
         </div>
 
-        <div class="tabcontent" id="aplicacoes"></div>
+        <div class="tabcontent" id="aplicacoes">
+                <div><p style="width: 40vw; height: 40vh; position:relative; top: 8vw; left:4vh">Nesta seção encontra-se aplicações da marca Descartes em alguns materiais, tais como: papelaria, canecas e vestuário. Cada material faz uso da marca de acordo com as diretrizes básicas estabelecidas neste manual.</p>></div>
 
-        <div class="tabcontent" id="elementos">aa</div>
+        </div>
+
+        <div class="tabcontent" id="elementos"><p style="position: relative; top: 7vw; left: 4vw; width: 40vw; height: 40vh">Nesta seção encontra-se os diversos elementos visuais que compõe a marca Descartes. Dessa forma a identificação da marca é feita através da percepção do conjuto de elementos que aqui são apresentados.
+
+                Tipografia, paleta de cores, etc, são desenvolvidos e selecionados a fim de transmitir nosso serviço e objetivos para com os usuários e para a sociedade.</p>></div>
 
         <div class="tabcontent" id="tipografia">
             <div style="display: flex; flex-direction: row; "><p style="width: 25vw; height: 40vh; font-size: 1.2vw;position: relative; top: 4vw; left: 2vh;">A tipografia principal, na qual compõe a marca Descartes, é a Nexa Bold. É uma fonte que traduz positivivamente a mensagem ao qual queremos que seja transmitida aos nossos usuários. Com um design simples, porém arrojado, além de transmitir modernidade e personalidade. <br><br>
@@ -131,12 +147,25 @@
         </div>
 
         <div class="tabcontent" id="fotografia">
-
+            <div><p style="position: relative; top: 1vw; left: 4vw; width: 40vw; height: 40vh">As fotos utilizadas na campanha da marca Descartes são desenvolvidas misturando o real e o lúdico, com o uso de texturas e algumas ilustrações através de edições. Dessa forma nos comunicamos com os nossos usuários de maneira dinêmica e divertida, sempre mantendo os elementos da marca e utilizando imagens que refere-se às prospostas de conscientização e reutilização de resíduos sólidos.</p>
+            <img style="width: 20vh; position:relative; left: 10vw; top: -3vw;" src="postagem10.jpg">
+            <img style="width: 20vh; position:relative;left: 10vw;top: -3vw;" src="postagem11.jpg">
+            <img style="width: 20vh; position:relative;left: 10vw;top: -3vw;" src="postagem12.jpg">
+            </div>
+            
         </div>
 
-        <div class="tabcontent" id="papelaria"></div>
-        <div class="tabcontent" id="canecas"></div>
-        <div class="tabcontent" id="vestuario"></div>
+        <div class="tabcontent" id="papelaria">
+            <div><img src="papelariav2.jpg" style="position:relative; top: 1vh; left: 10vw;width: 40vw;"></div>
+        </div>
+        <div class="tabcontent" id="canecas">
+            <div><img src="caneca.jpg" style="position:relative; top: 2.5vh; left: 10vw;width:40vw;"></div>
+        </div>
+        <div class="tabcontent" id="vestuario">
+            <div><img src="blusa-feminina.jpg" style="position:relative; top: 5vh; left: 1.5vw;width: 28vw;"><img src="blusa-masculina.jpg" style="position:relative; top: 5vh; left: 1.5vw;width: 28vw;"></div>
+            <div></div>
+
+        </div>
     </div>
 
     <script src="descartes.js"></script>

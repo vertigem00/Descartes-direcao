@@ -112,24 +112,65 @@ p {
     align-items: center;
     justify-items: center;
     text-align: center;
-
 }
 .logo img {
-    width: 65%;
+    width: 30%;
     position: absolute;
     top: 5vh;
     right: 0;
-    left: 11vw;
+    left: 3vw;
     bottom: 0;
 }
 .logo p{
-    font-size: 1.5vw;
-    left: 11.5vw;
-    top: 5vh;
+    font-size: 1vw;
+    left: 0vw;
+    top: 0vh;
     position: inherit;
     align-self: center;
 }
 
+.logomarca {
+    position: relative;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.logomarca img {
+    width: 65%;
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    left: 4vw;
+    bottom: 0;
+}
+.logomarca p{
+    font-size: 1vw;
+    left: 6vw;
+    top: 0vh;
+    position: inherit;
+    align-self: center;
+}
+
+.grid {
+    position: relative;
+    width: 60vw;
+    height: 60vh;
+}
+.grid img{
+    position: relative;
+    left: 12vw;top: -15vh; width: 60vw;
+}
+
+.grid p{
+    width: 25vw; height: 25vh; text-align: justify;
+    position: absolute;
+    font-size: 1.5vw;
+    left: 3vh;
+    top: 15vh;
+}
 
 @media only screen and (max-width: 600px) {
     body {
